@@ -1,0 +1,86 @@
+p
+
+
+
+
+
+
+/* ================================
+   Fotos dos integrantes
+   ================================ */
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #c0c0c0;
+  box-shadow: 0 0 10px #ffffff;
+}
+/* ================================
+   Tema KISS
+   ================================ */
+
+body {
+  background-color: #020202;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: linear-gradient(180deg, #c0c0c0, #bc0404);
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #f9f9f9 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #bc0404;
+  text-shadow: 0 0 10px #c0c0c0;
+}
+
+.btn-primary {
+  background-color: #c0c0c0;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #bc0404;
+  transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+  background: #000000;
+  border: 1px solid #bc0404;
+  color: #dcdcdc;
+}
+.card:hover {
+  box-shadow: 0 0 20px #bc0404;
+}
+
+/* Formulário */
+.formulario {
+  background-color: #ffffff;
+  border: 2px solid#;
+  box-shadow: 0 0 20px rgba(176, 102, 255, 0.5);
+}
+
+/* Footer */
+footer {
+  background: #000;
+  border-top: 2px solid #;
+  color: #bdbdbd;
+}
+footer i {
+  color: #bdbdbd;
+  transition: color 0.3s;
+}
+footer i:hover {
+  color: #000000;
+}

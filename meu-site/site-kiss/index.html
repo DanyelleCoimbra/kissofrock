@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KISS</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="p-5">
+        <ul class="nav mt-5">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link" href="artistas.html">Integrantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindos ao universo</h1>
+                    <img src="img/kiss-logo.jpg.webp" alt="Logotipo KISS" class="mb-3" width="400" height="278" loading="lazy">
+                    <a href="historia.html" class="btn btn-primary btn-lg fw-semibold">Conhecer a história</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="my-5 pt-6">
+            <div class="container d-flex align-items-center">
+                  <div class="col-8">
+                    <h2>Beije o Rock</h2>
+                    <p class="p-2">O KISS é uma banda de rock formada em Nova York em 1973 por Paul Stanley e Gene Simmons, depois com Ace Frehley e Peter Criss. Ficou famosa não só pelas músicas, mas também pelo visual marcante: maquiagens icônicas figurinos extravagantes,pirotecnica e shows teatrais que transformaram o rock em espetáculo. Canções como "rock And Roll All Nite" e "I Was Made for Lovin' You" se tornaram hinos. Ao longo das décadas, o grupo passou por mudanças de formação, mas contruiu um legado único, sendo considerado0 uma das bandas mais influentes e de maior sucesso da história do rock.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/love-gun-algum.jpg" class="img-fluid rounded-5 gallery-img" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/paul-e-gene.jpg" class="img-fluid rounded-5 gallery-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-3 fst-italic">
+        <p>Siga o legado:</p>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-spotify"></i>
+        <p class="mt-3">Site fictício desenvolvido para fins educacionais.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
