@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   elements.forEach(el => {
     el.classList.add("hidden");
     observer.observe(el);
-  });
+  });.
 });
 
 // ==============================
